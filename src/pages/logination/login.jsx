@@ -106,7 +106,7 @@ export const LoginPage = () => {
             >
               <Box>
                 <Heading mb={6} textAlign="center" textColor={"white"}>
-                  Login to your account
+                Ingrese a su cuenta
                 </Heading>
                 <Box className="social" color={"white"}>
                   <Text textAlign={"center"} mb={3}>
