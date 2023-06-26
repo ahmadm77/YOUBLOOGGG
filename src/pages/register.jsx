@@ -47,7 +47,7 @@ export const RegisterPage = () => {
       .required("Password is required"),
   });
   const handleSubmit = async (data) => {
-    data.FE_URL = "http://localhost:3000";
+    data.FE_URL = "https://ahmad-minpro1.netlify.app";
     try {
       const response = await Axios.post(
         "https://minpro-blog.purwadhikabootcamp.com/api/auth/",
